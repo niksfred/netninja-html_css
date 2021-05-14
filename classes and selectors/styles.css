@@ -1,0 +1,65 @@
+
+/* p.error{
+    color:salmon;
+
+}
+div.error{
+    font-size: 40px;
+    color:lightgreen;
+
+}
+p.success{
+    color:blue;
+
+}
+p.success.feedback{
+    color:lightgreen;
+    border: 1px dashed turquoise;
+    
+}
+#content{
+    background-color: #ebebeb;
+    padding: 20px;
+
+} */
+
+/* Classes */
+/* div  .error{
+    color:purple;
+} */
+/* a[href*="premiumrally"]{
+    background-color: greenyellow;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+
+} */
+/* a[href*="google"]{
+    color:red;
+
+} */
+/* a[href$=".com"]{
+    color: blue;
+} */
+
+/* Inehritance */
+/* More specific selectors overwrite other attributes. In this case,
+ div p is more specific than p which is more specific than div */
+ 
+div{
+    color: lightcoral;
+    border: 1px solid;
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+div p{
+    color:violet;
+
+}
+p{
+    border: inherit;
+    padding: inherit;
+    color: crimson;
+}

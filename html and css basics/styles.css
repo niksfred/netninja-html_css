@@ -1,0 +1,41 @@
+h1 {
+    color:pink;
+    background-color:slategray;
+    font-size:100px;
+    text-decoration:underline;
+    font-family:sans-serif;
+    text-align: center;
+
+}
+p {
+    color:chocolate;
+    line-height:20px;
+    letter-spacing:1px;
+    column-count:3;
+    column-gap: 100px;
+
+}
+ul{
+    /* border-style: dashed;
+    border-width: 4px;
+    border-color:darksalmon;
+     */
+    /* border:4px dashed crimson; */
+    border-left: 5px solid rgba(204, 21, 57, 0.808);
+}
+li{
+    list-style-type:upper-roman;
+    text-shadow: 2px 2px lightgray;
+}
+div{
+    margin: 20px;
+    padding: 25px;
+    border: 2px solid salmon;
+
+}
+span{
+    display: inline-block;
+    margin:20px;
+    padding:50px;
+
+}
